@@ -22,10 +22,13 @@ jobs:
           outputs: |
             # color_snake: Cor da cobra (VERDE)
             # color_dots: Lista de 5 cores (0, 1, 2, 3, 4 contribuições)
-            # #000000 = Preto (Vazio)
-            # #ffffff = Branco (Cheio)
-            dist/github-contribution-grid-snake.svg?color_snake=#00ff00&color_dots=#000000,#ffffff,#ffffff,#ffffff,#ffffff
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00ff00&color_dots=#000000,#ffffff,#ffffff,#ffffff,#ffffff
+            # #000000 : Preto (Fundo)
+            # #333333 : Cinza Escuro (Pouca atividade)
+            # #777777 : Cinza Médio
+            # #bbbbbb : Cinza Claro
+            # #ffffff : Branco Puro (Muita atividade)
+            dist/github-contribution-grid-snake.svg?color_snake=#00ff00&color_dots=#000000,#333333,#777777,#bbbbbb,#ffffff
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00ff00&color_dots=#000000,#333333,#777777,#bbbbbb,#ffffff
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
