@@ -1,4 +1,4 @@
-<div>
+<div align="left">
   
     wxrley@github:~$ wxrley --init
     
@@ -16,8 +16,7 @@
     [*] Email: wxrleylxpes@outlook.com
     [+] System ready.
     
-    wxrley@github:~$ █
-    
+    wxrley@github:~$ █ 
 </div>
 
 ![game](https://raw.githubusercontent.com/wxrley/wxrley/main/game.gif)
